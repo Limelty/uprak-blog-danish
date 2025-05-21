@@ -63,35 +63,35 @@ function Footer() {
       <div className="justify-center flex mt-4 flex-col items-center">
         <p className="text-slate-100 text-sm">Ikuti Kami di</p>
         <div className="flex gap-6 mt-4">
-          <a className="rounded-full focus:outline-teal-500" href="https://facebook.com/petanikode">
+          <a className="rounded-full focus:outline-teal-500" href="">
             <img
               src={facebookIcon}
               alt="Facebook"
               className="w-8 h-8 p-2 rounded-full hover:bg-blue-800 bg-slate-600 cursor-pointer"
             />
           </a>
-          <a className="rounded-full focus:outline-teal-500" href="https://twitter.com/petanikode">
+          <a className="rounded-full focus:outline-teal-500" href="">
             <img
               src={twitterIcon}
               alt="Twitter"
               className="w-8 h-8 p-2 rounded-full hover:bg-sky-500 bg-slate-600 cursor-pointer"
             />
           </a>
-          <a className="rounded-full focus:outline-teal-500" href="https://t.me/petanikode">
+          <a className="rounded-full focus:outline-teal-500" href="">
             <img
               src={telegramIcon}
               alt="Telegram"
               className="w-8 h-8 p-2 rounded-full hover:bg-sky-600 bg-slate-600 cursor-pointer"
             />
           </a>
-          <a className="rounded-full focus:outline-teal-500" href="https://instagram.com/petanikode">
+          <a className="rounded-full focus:outline-teal-500" href="">
             <img
               src={instagramIcon}
               alt="Instagram"
               className="w-8 h-8 p-2 rounded-full hover:bg-pink-600 bg-slate-600 cursor-pointer"
             />
           </a>
-          <a className="rounded-full focus:outline-teal-500" href="https://youtube.com/petanikode?sub_confirmation=1">
+          <a className="rounded-full focus:outline-teal-500" href="">
             <img
               src={youtubeIcon}
               alt="Youtube"
