@@ -7,7 +7,7 @@ function Blog() {
     const fetchApi = async () => {
       try {
         const response = await fetch(
-          "https://jsonplaceholder.typicode.com/posts"
+          "https://jsonplaceholder.typicode.com/posts?_limit=6"
         );
         const jsonData = await response.json();
         setData(jsonData);
